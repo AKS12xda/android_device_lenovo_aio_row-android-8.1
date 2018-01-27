@@ -1,0 +1,1 @@
+# android_device_lenovo_aio_row-android-8.1
