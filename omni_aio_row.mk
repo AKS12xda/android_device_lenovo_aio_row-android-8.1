@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The OmniROM Project
+# Copyright (C) 2018 The CandyROM Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,16 +22,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit omni's custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/candy/config/common.mk)
 
 # Pull in GSM-specific stuff such as APNs
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/candy/config/gsm.mk)
 
 # Call device specific makefile
 $(call inherit-product, device/lenovo/aio_row/device.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := omni_aio_row
+PRODUCT_NAME := candy_aio_row
 PRODUCT_DEVICE := aio_row
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := A7000-a
