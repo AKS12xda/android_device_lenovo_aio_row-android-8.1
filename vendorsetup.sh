@@ -1,3 +1,2 @@
-add_lunch_combo aosp_aio_row-userdebug
-add_lunch_combo candy_aio_row-userdebug
+add_lunch_combo aos_aio_row-userdebug
 
