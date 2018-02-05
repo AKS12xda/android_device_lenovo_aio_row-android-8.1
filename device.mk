@@ -16,12 +16,12 @@
 # 20171001 - Oreo port - daniel_hk (danielhk@github.com)
 
 # call the proprietary setup
-$(call inherit-product, vendor/lenovo/aio_otfp/aio_otfp-vendor.mk)
+$(call inherit-product, vendor/lenovo/aio_row/aio_row-vendor.mk)
 
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_as_supl.mk)
 
-LOCAL_PATH := device/lenovo/aio_otfp
+LOCAL_PATH := device/lenovo/aio_row
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
